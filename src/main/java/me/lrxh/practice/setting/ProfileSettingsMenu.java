@@ -54,10 +54,10 @@ public class ProfileSettingsMenu extends Menu {
             lore.add(CC.translate("&7View or change your"));
             lore.add(CC.translate("&7personal profile settings."));
             lore.add(CC.translate(""));
-            lore.add(CC.translate("&aClick to open"));
+            lore.add(CC.translate("&6Click to open"));
 
-            return new ItemBuilder(Material.REDSTONE_COMPARATOR)
-                    .name("&bSettings")
+            return new ItemBuilder(Material.NETHER_BRICK)
+                    .name("&6Settings")
                     .lore(lore)
                     .clearFlags()
                     .build();
@@ -77,13 +77,13 @@ public class ProfileSettingsMenu extends Menu {
         @Override
         public ItemStack getButtonItem(Player player) {
             List<String> lore = new ArrayList<>();
-            lore.add(CC.translate("&7View your personal"));
-            lore.add(CC.translate("&7stats."));
+            lore.add(CC.translate("&7View your personal Ranked"));
+            lore.add(CC.translate("&7and Unranked stats."));
             lore.add(CC.translate(""));
-            lore.add(CC.translate("&aClick to open"));
+            lore.add(CC.translate("&6Click to open"));
 
-            return new ItemBuilder(Material.EMERALD)
-                    .name("&bStatistics")
+            return new ItemBuilder(Material.PRISMARINE_CRYSTALS)
+                    .name("&6Statistics")
                     .lore(lore)
                     .clearFlags()
                     .build();
