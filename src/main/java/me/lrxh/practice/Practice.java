@@ -161,19 +161,19 @@ public class Practice extends JavaPlugin {
         }
         Console.sendMessage(CC.translate("&7&m-----------------------------------------"));
         Console.sendMessage(CC.translate(" "));
-        Console.sendMessage(CC.translate("&7| &cPractice Core"));
+        Console.sendMessage(CC.translate("&7| &6Practice Core"));
         Console.sendMessage(CC.translate(" "));
-        Console.sendMessage(CC.translate("&7| &fAutor(s): &c" + getInstance().getDescription().getAuthors().toString().replace("[", "").replace("]", "")));
-        Console.sendMessage(CC.translate("&7| &fVersion: &c" + getInstance().getDescription().getVersion()));
-        Console.sendMessage(CC.translate("&7| &fSpigot: &c" + getInstance().getServer().getName()));
+        Console.sendMessage(CC.translate("&7| &fAutor(s): &6" + getInstance().getDescription().getAuthors().toString().replace("[", "").replace("]", "")));
+        Console.sendMessage(CC.translate("&7| &fVersion: &6" + getInstance().getDescription().getVersion()));
+        Console.sendMessage(CC.translate("&7| &fSpigot: &6" + getInstance().getServer().getName()));
         Console.sendMessage(CC.translate(" "));
-        Console.sendMessage(CC.translate("&7| &fKits: &c" + Kit.getKits().size()));
-        Console.sendMessage(CC.translate("&7| &fArenas: &c" + Arena.getArenas().size()));
+        Console.sendMessage(CC.translate("&7| &fKits: &6" + Kit.getKits().size()));
+        Console.sendMessage(CC.translate("&7| &fArenas: &6" + Arena.getArenas().size()));
 //        if (spigotHandler != null) {
 //            Console.sendMessage(CC.translate("&7| &fKB Controller: &c" + spigotHandler.getType()));
 //        }
         Console.sendMessage(CC.translate(" "));
-        Console.sendMessage(CC.translate("&7| &fPlugin Loaded in : &c" + (System.currentTimeMillis() - oldTime) + "ms"));
+        Console.sendMessage(CC.translate("&7| &fPlugin Loaded in : &6" + (System.currentTimeMillis() - oldTime) + "ms"));
         Console.sendMessage(CC.translate(" "));
         Console.sendMessage(CC.translate("&7&m-----------------------------------------"));
         System.gc();
