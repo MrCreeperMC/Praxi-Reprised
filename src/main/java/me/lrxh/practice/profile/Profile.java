@@ -84,7 +84,7 @@ public class Profile {
             try {
                 profile.load();
             } catch (Exception e) {
-                player.kickPlayer(CC.RED + "The server is loading...");
+                player.kickPlayer(CC.RED + "We couldn't load your profile, Please try again.");
                 continue;
             }
 
