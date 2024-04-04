@@ -17,7 +17,7 @@ public class ProfileOptions {
     private boolean allowSpectators = true;
     private boolean showPlayers = false;
     private KillEffects killEffect = KillEffects.NONE;
-    private boolean menuSounds = false;
+    private boolean menuSounds = true;
     private Themes theme = Themes.valueOf(Practice.getInstance().getMainConfig().getString("DEFAULT-THEME-COLOR"));
     private int pingRange = 250;
     private Times time = Times.DAY;
