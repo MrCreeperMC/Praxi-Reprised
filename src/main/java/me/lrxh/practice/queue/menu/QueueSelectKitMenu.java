@@ -67,7 +67,7 @@ public class QueueSelectKitMenu extends Menu {
 
         @Override
         public ItemStack getButtonItem(Player player) {
-            return new ItemBuilder(Material.REDSTONE_COMPARATOR).name("&aRandom Queue").clearEnchantments().clearFlags().clearFlags().build();
+            return new ItemBuilder(Material.SKULL).name("&6Random Queue").clearEnchantments().clearFlags().clearFlags().build();
         }
 
         @Override
