@@ -12,7 +12,7 @@ public class ShowScoreboardOptionButton extends ProfileOptionButton {
 
     @Override
     public String getOptionName() {
-        return "&aShow Scoreboard";
+        return "&6Show Scoreboard";
     }
 
     @Override
