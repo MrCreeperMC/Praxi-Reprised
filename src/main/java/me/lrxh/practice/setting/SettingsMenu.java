@@ -224,7 +224,7 @@ public class SettingsMenu extends Menu {
                 }
                 case KILL_EFFECTS: {
                     if (!player.hasPermission("practice.killeffect." + profile.getOptions().killEffect().getDisplayName())) {
-                        player.sendMessage(CC.translate("&cYou don't have permission to use this kill effect"));
+                        player.sendMessage(CC.translate("&cYou don't have permission to use this kill effect. buy a rank at store."));
                         break;
                     }
                     switch (profile.getOptions().killEffect()) {
@@ -246,7 +246,7 @@ public class SettingsMenu extends Menu {
                 }
                 case THEME: {
                     if (!player.hasPermission("practice.theme." + profile.getOptions().theme().getName())) {
-                        player.sendMessage(CC.translate("&cYou don't have permission to use the theme selector"));
+                        player.sendMessage(CC.translate("&cYou don't have permission to use the theme selector. you should be a staff to use this feature."));
                         break;
                     }
                     switch (profile.getOptions().theme()) {
